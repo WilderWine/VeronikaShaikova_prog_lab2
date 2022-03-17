@@ -11,9 +11,9 @@ namespace zTesr1
         public void returnResTest1()
         {
             int a = 18, b = 18, expect = 0;
-            Funcs c = new Funcs();
+           // Funcs c = new Funcs();
 
-            int actual = c.returnRes(a, b);
+            int actual = Funcs.returnRes(a, b);
 
             Assert.AreEqual(expect, actual);
         }
@@ -22,9 +22,9 @@ namespace zTesr1
         public void returnResTest2()
         {
             int a = 18, b = 465, expect = a;
-            Funcs c = new Funcs();
+           // Funcs c = new Funcs();
 
-            int actual = c.returnRes(a, b);
+            int actual = Funcs.returnRes(a, b);
 
             Assert.AreEqual(expect, actual);
         }
@@ -33,11 +33,11 @@ namespace zTesr1
         public void parseInFunv()
         {
             
-            Funcs c = new Funcs();
+          //  Funcs c = new Funcs();
             string a = "155";
             int expect = 155;
 
-            int actual = c.parseInFunc(a);
+            int actual = Funcs.parseInFunc(a);
 
             Assert.AreEqual(expect, actual);
         }
